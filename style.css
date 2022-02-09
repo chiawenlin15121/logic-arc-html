@@ -1,0 +1,125 @@
+html, body{
+  padding: 0;
+  margin: 0;
+}
+.main{
+  width: 1920px;
+  height: 1080px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("./assets/background.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content{
+  width: 1428px;
+  height: 967px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url("./assets/content.png");
+  position: relative;
+}
+.logo{
+  position: absolute;
+  width: 125px;
+  height: 82px;
+  left: 400px;
+  top: 57.6px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url("./assets/logo.png");
+}
+.title{
+  position: absolute;
+  left: 558px;
+  top: 67px;
+  width: 561.3px;
+  height: 51px;
+  margin: 9.3px 20.8px 15.5px 32.8px;
+  font-family: MicrosoftYaHeiBold-GBpc-EUC-H;
+  font-size: 41.7px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: 8.35px;
+  text-align: center;
+  color: #333;
+}
+span.subtitle {
+  position: absolute;
+  left: 550px;
+  top: 120px;
+  width: 563.3px;
+  height: 34px;
+  margin: 15.5px 18.8px 225.3px 32.8px;
+  font-family: MicrosoftYaHeiGBpc-EUC-H;
+  font-size: 30.1px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.81;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333;
+}
+img.homepage {
+  position: absolute;
+  left: 325px;
+  top: 392.7px;
+  width: 713.7px;
+  height: 399.6px;
+  object-fit: contain;
+}
+
+img.products-list-green {
+  position: absolute;
+  bottom: 40px;
+  left: 537px;
+  width: 357.1px;
+  height: 87.6px;
+  object-fit: contain;
+}
+.right-board{
+  padding-top: 57.6px;
+  padding-left: 32.9px;
+  position: absolute;
+  right: 48.2px;
+  top: 407px;
+  width: 273.1px;
+  height: 383.8px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url("./assets/board.png");
+}
+.infos{
+  display: flex;
+  flex-direction: column;
+}
+.infos > span{
+  margin-bottom: 20px;
+}
+.infos > img{
+  width: 57.4px;
+  height: 21.1px;
+  object-fit: contain;
+}
+.web-icon{
+  position: absolute;
+  top: 0;
+  right: 26.2px;
+  width: 52.6px;
+  height: 52.6px;
+  object-fit: contain;
+}
+.back-btn{
+  position: absolute;
+  width: 66.7px;
+  height: 66.7px;
+  left: 32.4px;
+  object-fit: contain;
+}
+.hover-pointer:hover{
+  cursor: pointer;
+}
